@@ -8,6 +8,7 @@
 
 <script>
     export default {
+        name: 'TheSelector',
         data(){
             return {
                 selectedValue: '',
