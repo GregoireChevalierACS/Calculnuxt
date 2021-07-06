@@ -163,18 +163,18 @@
                     var yOffset = 0
                     for (yOffset = 0; yOffset < optimalFormat.height; yOffset++) {
                         this.vueCanvas.rect(
-                        ((xOffset * this.valueW) * 3), // écart entre chaque rect en x
-                        (( yOffset * this.valueH) * 3), // écart entre chaque rect en y
-                        (this.valueW * 3), 
-                        (this.valueH * 3)
+                        ((xOffset * this.valueW) * 4.25), // écart entre chaque rect en x
+                        (( yOffset * this.valueH) * 4.25), // écart entre chaque rect en y
+                        (this.valueW * 4.25), 
+                        (this.valueH * 4.25)
                         );               
                         this.vueCanvas.fillStyle = 'rgb(255, 165, 0)';
                         // remplissage des rectangles ci dessous
                         this.vueCanvas.fillRect(
-                        ((xOffset * this.valueW) * 3), 
-                        (( yOffset * this.valueH) * 3), 
-                        (this.valueW * 3), 
-                        (this.valueH * 3)); 
+                        ((xOffset * this.valueW) * 4.25), 
+                        (( yOffset * this.valueH) * 4.25), 
+                        (this.valueW * 4.25), 
+                        (this.valueH * 4.25)); 
                     }
                 }
 
